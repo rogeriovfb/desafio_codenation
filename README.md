@@ -6,7 +6,7 @@ Normal: a ligeira raposa marrom saltou sobre o cachorro cansado
 
 Cifrado: d oljhlud udsrvd pduurp vdowrx vreuh r fdfkruur fdqvdgr
 
-##Regras
+## Regras
 As mensagens serão convertidas para minúsculas tanto para a criptografia quanto para descriptografia.
 No nosso caso os números e pontos serão mantidos, ou seja:
 Normal: 1a.a
@@ -35,6 +35,7 @@ Você deve usar o número de casas para decifrar o texto e atualizar o arquivo J
 Seu programa deve submeter o arquivo atualizado para correção via POST para a API:
 
 https://api.codenation.dev/v1/challenge/dev-ps/submit-solution?token=SEU_TOKEN
+
 OBS: a API espera um arquivo sendo enviado como multipart/form-data, como se fosse enviado por um formulário HTML, com um campo do tipo file com o nome answer. Considere isso ao enviar o arquivo.
 
 O resultado da submissão vai ser sua nota ou o erro correspondente. Você pode submeter quantas vezes achar necessário, mas a API não vai permitir mais de uma submissão por minuto.

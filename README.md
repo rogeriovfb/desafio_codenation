@@ -19,7 +19,7 @@ https://api.codenation.dev/v1/challenge/dev-ps/generate-data?token=SEU_TOKEN
 Para encontrar o seu token , acesse a plataforma Codenation, faça o login e a informação estará na tela, conforme no exemplo abaixo:
 
 O resultado da requisição vai ser um JSON conforme o exemplo:
-'''json
+```yaml
 {
 	"numero_casas": 10,
 	"token":"token_do_usuario",
@@ -27,7 +27,7 @@ O resultado da requisição vai ser um JSON conforme o exemplo:
 	"decifrado": "aqui vai o texto decifrado",
 	"resumo_criptografico": "aqui vai o resumo"
 }
-'''
+
 O primeiro passo é você salvar o conteúdo do JSON em um arquivo com o nome answer.json, que irá usar no restante do desafio.
 
 Você deve usar o número de casas para decifrar o texto e atualizar o arquivo JSON, no campo decifrado. O próximo passo é gerar um resumo criptográfico do texto decifrado usando o algoritmo sha1 e atualizar novamente o arquivo JSON. OBS: você pode usar qualquer biblioteca de criptografia da sua linguagem de programação favorita para gerar o resumo sha1 do texto decifrado.
